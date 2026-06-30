@@ -20,9 +20,9 @@ export default function TechStack() {
   ];
 
   return (
-    <section id="tech-stack" className="mt-8">
+    <section id="tech-stack" className="mt-8 font-sans">
       <h2 className="text-xs uppercase tracking-[0.2em] font-medium text-muted-deep font-sans">Tech Stack</h2>
-      <p className="text-sm text-muted mt-1.5 mb-8 font-mono">The tools behind my builds.</p>
+      <p className="text-sm text-muted mt-1.5 mb-4 font-sans">The tools behind my builds.</p>
       
       <div className="flex flex-wrap gap-3">
         {techs.map((tech) => (
@@ -40,7 +40,7 @@ export default function TechStack() {
               className="w-4 h-4 object-contain"
               style={tech.invert ? { filter: 'brightness(0) invert(1)' } : {}}
             />
-            <span className="text-sm font-medium text-foreground">{tech.name}</span>
+            <span className="text-[14px] font-medium text-foreground">{tech.name}</span>
           </div>
         ))}
       </div>

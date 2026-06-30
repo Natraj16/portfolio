@@ -13,8 +13,8 @@
   --color-border-hover: var(--border-hover);
   --color-glow: var(--glow-color);
   
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-sans: 'Figtree', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 :root[data-theme="dark"], :root {
@@ -48,7 +48,7 @@
 body {
   background-color: var(--background);
   color: var(--foreground);
-  font-family: var(--font-mono); /* Force monospace everywhere by default like the reference */
+  font-family: var(--font-sans); /* Use sans by default */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

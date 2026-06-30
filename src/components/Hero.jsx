@@ -5,12 +5,12 @@ export default function Hero() {
   return (
     <section className="relative mt-12 max-w-3xl mx-auto px-6 font-mono text-foreground">
       <div className="flex flex-col md:flex-row items-start gap-6">
-        <div className="relative h-24 w-24 md:h-28 md:w-28 shrink-0 overflow-hidden rounded-2xl border border-subtle-border bg-subtle-bg-2 flex items-center justify-center text-4xl font-bold font-sans">
+        <div className="relative h-24 w-24 md:h-28 md:w-28 shrink-0 overflow-hidden rounded-2xl border border-subtle-border bg-subtle-bg-2 flex items-center justify-center text-4xl font-bold">
           <img src="/assets/profile.jpg" alt="Natraj Kashyap" className="w-full h-full object-cover" />
         </div>
         <div className="min-w-0 flex flex-col justify-center">
           <div className="flex flex-wrap items-center gap-4">
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-accent font-sans">
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-accent">
               Natraj Kashyap
             </h1>
             <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1.5 text-xs text-emerald-400">

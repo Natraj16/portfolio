@@ -28,7 +28,7 @@ function App() {
     <div className="min-h-screen bg-background text-foreground transition-colors duration-300 relative z-0">
       <div className="glow-bg"></div>
 
-      <nav aria-label="Main navigation" className="w-full max-w-6xl mx-auto px-6 py-4 flex items-center justify-between text-sm font-mono z-50 relative">
+      <nav aria-label="Main navigation" className="w-full max-w-6xl mx-auto px-6 py-4 flex items-center justify-between text-sm font-sans z-50 relative">
         <Link className="text-sm text-muted hover:text-accent transition-colors" to="/" onClick={closeMenu}>Natraj Kashyap</Link>
         
         <div className="hidden md:flex items-center gap-8 px-6 py-2 rounded-md">
@@ -67,7 +67,7 @@ function App() {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden absolute top-16 left-0 right-0 bg-background border-b border-border z-40 px-6 py-6 flex flex-col gap-6 font-mono shadow-lg">
+        <div className="md:hidden absolute top-16 left-0 right-0 bg-background border-b border-border z-40 px-6 py-6 flex flex-col gap-6 font-sans shadow-lg">
           <Link onClick={closeMenu} className="text-foreground hover:text-accent transition-colors text-base" to="/">Home</Link>
           <Link onClick={closeMenu} className="text-foreground hover:text-accent transition-colors text-base" to="/projects">Projects</Link>
           <a onClick={closeMenu} className="text-foreground hover:text-accent transition-colors text-base" href="/#tech-stack">Tech Stack</a>
